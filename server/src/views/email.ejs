@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hi, <%= userName %> !</p>
+    <p>An account has been created with your mail. Please verify your account</p>
+    <p>Note:This link will expire in <%= expireTime %> hours</p>
+    <p>Click this link to verify
+    <span> <a href='http://localhost:3006/verifyEmail/<%= userId %>'>Link</a></span></p>
+</body>
+</html>

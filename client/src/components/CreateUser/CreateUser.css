@@ -1,0 +1,94 @@
+.createUserBody {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(
+      to left,
+      rgba(138, 131, 131, 0) 0%,
+      rgba(239, 234, 243, 0.952) 100%
+    ),
+    url("../../asset/images/bg.jpg");
+  height: 30em;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.createUserLeft {
+  height: 100vh;
+  width: 40%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createUserRight {
+  height: 100vh;
+  width: 60%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: last baseline;
+}
+.createUserImg {
+  height: 50%;
+  width: 70%;
+}
+.rightContent {
+  width: 45%;
+  height: 70%;
+  margin-left: 30%;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding-left: 100px;
+  padding-top: 60px;
+}
+.inputSegment {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.inputLabel {
+  font-weight: 500;
+  font-size: medium;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.inputField {
+  height: 29px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 70%;
+  padding-left: 15px;
+}
+.inputField:focus {
+  outline: 1px solid royalblue;
+}
+.saveBtn {
+  width: 60px;
+  height: 30px;
+  border: none;
+  background: #d8edf3c5;
+  color: brown;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.saveBtn:hover {
+  background-color: rgb(89, 75, 102);
+  width: 65px;
+  height: 35px;
+  transition-duration: 700ms;
+  color: white;
+}
+.successText {
+  color: green;
+}
+.failedText {
+  color: red;
+}
